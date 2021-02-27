@@ -1,0 +1,24 @@
+class = 10
+inter=16
+sensor=4
+motor=4
+
+stimulation = 0.2
+iteration = 0.1
+dt = 0.001
+I_s = 700*(10**-12)
+
+V_th=-0.060
+t_ref=0.002
+t_tx=0.003
+t_stim=0.002
+I_in=300*(10**-12)
+R=250*(10**6)
+C=70*(10**-12)
+
+min_spikes = 5
+p_cross = 0.8
+p_mutate = 0.001
+Init_gen=1000
+N_gen=200
+thr=30
