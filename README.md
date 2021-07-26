@@ -10,6 +10,7 @@ neuron network with genetic optimisation
 학습시킨 가중치를 사용합니다. pygame으로 이루어져 있으며, 마우스를 클릭해 신경망에 자극을 주고, 반응을 관찰할 수 있습니다.
 ### [visualizer.py](visualizer.py)
 networkx를 이용해 각 뉴런 노드가 어느 정도의 강도로 연결되어 있는지 양방향 그래프로 나타냅니다. 가중치의 heatmap도 관찰할 수 있습니다.
+![node](neurons=(16,4,4), 10class/net_0.4.png)
 ## 기타
 <code>ws_gen=118_i=16_s=4_m=4_98.npy</code>는 한 세대 당 200개의 개체가 존재하며, 118세대 진화 결과 한 세대의 평균 정확도가 98% 이상인 가중치 행렬 데이터입니다.</br>
 시뮬레이션을 위해 <code>playground.py</code>에 사용된 <code>ws_ext_gen=118_acc=98.npy</code>는 위의 200개의 개체 중, 모든 자극에 대해서 올바르게 반응하는 가중치 행렬을 한 가지 선택한 것입니다.
